@@ -10,10 +10,12 @@ This repository contains simulations and analyses of various dynamic systems in 
    - [Particle connected to a spool](#2-particle-connected-to-a-spool)
    - [Particle on oscillating loop](#3-particle-on-oscillating-loop)
 3. [How to Use](#-how-to-use)
-4. [Requirements](#-requirements)
-5. [Download as .zip](#-Download as .zip)
-6. [Contribution](#-contribution)
-7. [License](#-license)
+4. [Requirements](#%EF%B8%8F-requirements)
+5. [Download as .zip](#-download-as-zip)
+6. [Authors](#-authors)
+7. [Course Information](#-course-information)
+8. [Contribution](#-contribution)
+9. [License](#-license)
 
 
 ## 📁 Repository Structure
@@ -75,6 +77,9 @@ This repository contains simulations and analyses of various dynamic systems in 
 
 3. Review the PDFs to understand the theoretical framework and the results of each simulation.
 
+## 🛠️ Requirements
+- MATLAB (Version 2020 or higher recommended)
+
 ### 📦 Download as .zip
 If you prefer, you can download the entire repository as a .zip file:
 
@@ -82,12 +87,22 @@ If you prefer, you can download the entire repository as a .zip file:
 2. Click the green **Code** button.
 3. Select **Download ZIP** and extract the contents to your local directory.
 
-## 🛠️ Requirements
-- MATLAB (Version 2020 or higher recommended)
+## 👥 Authors
+
+Different laboratory sessions were completed by various student groups from the Aerospace Engineering program at UC3M, including:
+- Diego Delgado Madrigal
+- Alejandra Men ́endez Lucini
+- Sofía Marín Puche
+
+## 📘 Course Information
+
+- **Institution**: Universidad Carlos III de Madrid (UC3M)
+- **Program**: Aerospace Engineering
+- **Course**: Fluid Mechanics
+- **Academic Year**: 2024
 
 ## 🤝 Contribution
 Contributions are welcome. If you want to add or improve a simulation, create a pull request or open an issue to discuss it.
 
 ## 📄 License
 This project is free to use, modify, and distribute without restrictions.
-
