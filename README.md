@@ -11,8 +11,9 @@ This repository contains simulations and analyses of various dynamic systems in 
    - [Particle on oscillating loop](#3-particle-on-oscillating-loop)
 3. [How to Use](#-how-to-use)
 4. [Requirements](#-requirements)
-5. [Contribution](#-contribution)
-6. [License](#-license)
+5. [Download as .zip](#-Download as .zip)
+6. [Contribution](#-contribution)
+7. [License](#-license)
 
 
 ## 📁 Repository Structure
@@ -56,7 +57,6 @@ This repository contains simulations and analyses of various dynamic systems in 
 - **Main Files:**
   - `main.m` - Code for the numerical simulation.
 - **Document:** `Particle connected to a spool.pdf` - Theoretical description and simulations.
-- **Code:** To be added.
 
 ### 3. Particle on oscillating loop
 **Description:** Analysis of a particle's movement on an oscillating loop, investigating trajectories and dynamic behavior.
