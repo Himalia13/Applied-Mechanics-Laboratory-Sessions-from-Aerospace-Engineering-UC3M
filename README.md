@@ -71,7 +71,7 @@ This repository contains simulations and analyses of various dynamic systems in 
 ## 🚀 How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/user/repo
+   git clone git clone https://github.com/Himalia13/Applied-Mechanics-Laboratory-Sessions-from-Aerospace-Engineering-UC3M
    ```
 2. Navigate to the project of interest and open the .m files in MATLAB to run the simulations.
 
