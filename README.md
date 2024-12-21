@@ -90,7 +90,7 @@ If you prefer, you can download the entire repository as a .zip file:
 ## 👥 Authors
 
 Different laboratory sessions were completed by various student groups from the Aerospace Engineering program at UC3M, including:
-- Diego Delgado Madrigal
+- Andrés Velázquez Vela
 - Alejandra Menéndez Lucini
 - Sofía Marín Puche
 
