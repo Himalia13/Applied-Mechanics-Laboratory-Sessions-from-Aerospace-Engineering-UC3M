@@ -2,6 +2,19 @@
 
 This repository contains simulations and analyses of various dynamic systems in the field of physics, with MATLAB implementations and detailed documentation in PDF format.
 
+## 📑 Table of Contents
+
+1. [Repository Structure](#-repository-structure)
+2. [Project Descriptions](#-project-descriptions)
+   - [Compound Double Pendulum](#1-compound-double-pendulum)
+   - [Particle connected to a spool](#2-particle-connected-to-a-spool)
+   - [Particle on oscillating loop](#3-particle-on-oscillating-loop)
+3. [How to Use](#-how-to-use)
+4. [Requirements](#-requirements)
+5. [Contribution](#-contribution)
+6. [License](#-license)
+
+
 ## 📁 Repository Structure
 
 ```
@@ -16,10 +29,12 @@ This repository contains simulations and analyses of various dynamic systems in 
 |
 |-- Particle connected to a spool
 |   |-- code
+|   |   |-- main.m
 |   |-- Particle connected to a spool.pdf
 |
 |-- Particle on oscillating loop
 |   |-- code
+|   |   |-- main.m
 |   |-- Particle on oscillating loop.pdf
 ```
 
@@ -32,48 +47,24 @@ This repository contains simulations and analyses of various dynamic systems in 
   - `main_exp.m` - Code for double pendulum experiments.
   - `main_num.m` - Numerical simulation of the pendulum.
   - `poncaire.mat` - Poincaré map data.
-  - `tracked_positions.mat` - Tracked positions during the simulation.
+  - `tracked_positions.mat` - Tracked positions during the experiment.
 - **Document:** `Compound Double Pendulum.pdf` - Theoretical explanation and results analysis.
 
 ### 2. Particle connected to a spool
-**Description:** Simulation of a particle connected to a spool, analyzing the system's dynamics. A heavy particle \(P\) of mass \(m\) is connected by a string of total length \(l\) to a cylindrical spool of radius \(a\) and center at \(O\). The spool rotates at a known constant angular rate \(\omega\) counterclockwise. The string is massless, inelastic, thin, and remains in tension during the motion of the particle. The inertial reference frame \(Oxy\) is defined with the origin at the spool center. 
+**Description:** Simulation of a particle connected to a spool, analyzing the system's dynamics. 
 
-- **Laboratory Session 1 Tasks:**
-  1. Verify that the system has one degree of freedom, parametrized by \(\phi\).
-  2. Express \(\xi\) as a function of time \(t\) and angle \(\phi\). Derive position, velocity, and acceleration vectors.
-  3. Formulate the forces acting on \(P\).
-  4. Write the second-order differential equation for \(\phi\) and derive tension \(T\) as a function of \(\phi\) and its derivative.
-  5. Implement the differential equation in MATLAB as a function for integration with `ode45`.
-  6. Create a stop function to detect when \(\xi = 0\) or \(T = 0\).
-  7. Integrate the equations using `ode45` and plot the evolution of \(\phi\) and \(\xi\) over time.
-  8. Plot the trajectory of \(P\) in the \(Oxy\) plane, including a reference circle for the spool.
-  9. Compute and plot the mechanical energy \(E\) of \(P\) over time.
- 10. Analyze cases of particle interaction with the spool and string tension loss.
- 11. Discuss potential code modifications for post-tension loss integration.
-
-- **Parameters:**
-  - \(l = 8 \, m\)
-  - \(g = 9.81 \, m/s^2\)
-  - \(m = 0.1 \, kg\)
-  - \(a = 0.2 \, m\)
-  - \(\phi(0) = 0 \, rad\)
-  - \(\xi(0) = 1 \, m\)
-
-- **Cases:**
-  - **Case 1:** \(\omega = 0.1 \, rad/s, \, x'_P(0) = 0 \, m/s\)
-  - **Case 2:** \(\omega = 0 \, rad/s, \, x'_P(0) = -1 \, m/s\)
-  - **Case 3:** \(\omega = 0 \, rad/s, \, x'_P(0) = -10 \, m/s\)
-  - **Case 4:** \(\omega = 0 \, rad/s, \, x'_P(0) = 4 \, m/s\)
-  - **Case 5:** \(\omega = 0.1 \, rad/s, \, x'_P(0) = 1 \, m/s\)
-
+- **Main Files:**
+  - `main.m` - Code for the numerical simulation.
 - **Document:** `Particle connected to a spool.pdf` - Theoretical description and simulations.
 - **Code:** To be added.
 
 ### 3. Particle on oscillating loop
 **Description:** Analysis of a particle's movement on an oscillating loop, investigating trajectories and dynamic behavior.
 
+- **Main Files:**
+  - `main.m` - Code for the numerical simulation.
 - **Document:** `Particle on oscillating loop.pdf` - System analysis and graphics.
-- **Code:** To be added.
+
 
 ## 🚀 How to Use
 1. Clone the repository:
@@ -84,13 +75,19 @@ This repository contains simulations and analyses of various dynamic systems in 
 
 3. Review the PDFs to understand the theoretical framework and the results of each simulation.
 
+### 📦 Download as .zip
+If you prefer, you can download the entire repository as a .zip file:
+
+1. Visit the repository page in GitHub.
+2. Click the green **Code** button.
+3. Select **Download ZIP** and extract the contents to your local directory.
+
 ## 🛠️ Requirements
 - MATLAB (Version 2020 or higher recommended)
-- Signal processing and dynamic systems toolbox
 
 ## 🤝 Contribution
 Contributions are welcome. If you want to add or improve a simulation, create a pull request or open an issue to discuss it.
 
 ## 📄 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is free to use, modify, and distribute without restrictions.
 
